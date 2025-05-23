@@ -7,8 +7,11 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to bottom right, #f0f4ff, #e3e0f7);
-  color: #333;
+  background-image: url('background.jpg');
+   background-repeat:no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+  color: #ebe7e7;
   padding: 20px;
   line-height: 1.6;
 }
@@ -74,9 +77,9 @@ caption {
 
 
 form {
-  background-color: #fff;
+  background-color: #000000;
   padding: 20px;
-  border: 2px solid #c5a3da;
+  border: 2px solid #57376b;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(80, 0, 120, 0.2);
   max-width: 600px;
@@ -137,8 +140,8 @@ footer {
   margin-top: 30px;
   text-align: center;
   padding: 10px;
-  background-color: #eee;
-  border-radius: 8px;
+  background-color: #030202;
+  border-radius: 10px;
   font-size: 0.95rem;
 }
 
